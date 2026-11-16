@@ -8,7 +8,7 @@ brew tap tzutalin/tap
 
 | Package | Install | What it is |
 |---|---|---|
-| [DiffPilot](https://tzutalin.github.io/DiffPilot/) | `brew install --cask tzutalin/tap/diffpilot` | Native app for reviewing Git changes and pull requests with coding agents. Also installs the `dip` command |
+| [DiffPilot](https://tzutalin.github.io/DiffPilot/) | `brew trust --cask tzutalin/tap/diffpilot`<br>`brew install --cask tzutalin/tap/diffpilot` | Native app for reviewing Git changes and pull requests with coding agents. Also installs the `dip` command |
 
 Update with `brew upgrade` (or `brew upgrade --cask diffpilot`). Remove with `brew uninstall --cask diffpilot`; add `--zap` to also delete its settings.
 
