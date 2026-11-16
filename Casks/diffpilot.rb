@@ -12,7 +12,7 @@ cask "diffpilot" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "DiffPilot.app"
   binary "#{appdir}/DiffPilot.app/Contents/MacOS/dip"
