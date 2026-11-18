@@ -1,6 +1,6 @@
 cask "diffpilot" do
-  version "0.1.4"
-  sha256 "bb85964ae00b62393c23b6cfe7d933da75b65f89a6b269837c5a6e1fea9c5ed7"
+  version "0.1.5"
+  sha256 "9e48d6b0b4d8b2e42bf4792c874c4a79a1c23a9c7928dafa162205fd380530c1"
 
   url "https://github.com/tzutalin/DiffPilot/releases/download/v#{version}/DiffPilot-#{version}-universal.dmg"
   name "DiffPilot"
